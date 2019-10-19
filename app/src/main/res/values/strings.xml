@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HOSTEL COMPLAINTS</string>
+    <string name="title_activity_student">STUDENT</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">SETTINGS</string>
+    <string name="title_activity_warden">WARDEN</string>
+    <string name="title_activity_caretaker">CARETAKER</string>
+    <string name="help">For any further Queries ,contact the developers .
+        Contact details are as follows :- </string>
+
+    <string-array name="Change">
+        <item>Change</item>
+        <item>In Progress</item>
+        <item>Finished</item>
+
+    </string-array>
+</resources>

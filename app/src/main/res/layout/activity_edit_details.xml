@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="himankgupta.hostelcomplaintmanagementportal.EditDetailsStudent">
+
+    <EditText
+        android:id="@+id/editTextEditName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:hint="Full Name"
+        android:editable="false"
+
+       />
+
+    <EditText
+        android:id="@+id/editTextEditRollnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:editable="false"
+        android:hint="Roll Number"
+        />
+
+    <EditText
+        android:id="@+id/editTextEditEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button13"
+        android:layout_marginTop="9dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextEditPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText10"
+        android:layout_marginTop="9dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextEditHostel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText11"
+        android:layout_below="@+id/editText11"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Hostel"
+        android:inputType="textPersonName" />
+
+
+
+    <EditText
+        android:id="@+id/editTextEditRoomNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText13"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Room Number"
+        android:inputType="textPersonName" />
+
+
+
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText14"
+        android:layout_marginTop="44dp"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button21"
+        android:layout_marginTop="16dp"
+        android:text="Cancel" />
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="himankgupta.hostelcomplaintmanagementportal.Help">
+
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:paddingLeft="8dp"
+        android:paddingTop="20dp"
+        android:text="@string/help"
+
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorAccent"
+        android:textSize="12pt"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="1.Bhanav Jindal"
+        android:textAlignment="viewStart"
+
+        android:textSize="12pt" />
+
+    <TextView
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text=" bhanavjindal34@gmail.com"
+        android:textAlignment="viewStart"
+
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="2.Kriti Asija"
+        android:textAlignment="viewStart"
+
+        android:textSize="12pt" />
+
+    <TextView
+        android:id="@+id/editText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text=" asijapratikriti@gmail.com"
+        android:textAlignment="viewStart"
+
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/editText8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="3.Himank Gupta"
+        android:textAlignment="viewStart"
+
+        android:textSize="12pt" />
+
+    <TextView
+        android:id="@+id/editText9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text=" gupta.himank01@gmail.com"
+        android:textAlignment="viewStart"
+
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/editText10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="4.Arushi Hira"
+        android:textAlignment="viewStart"
+
+        android:textSize="12pt" />
+
+    <TextView
+        android:id="@+id/editText11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text=" hiraarushi@gmail.com"
+        android:textAlignment="viewStart"
+
+        android:textSize="10pt" />
+
+</LinearLayout>

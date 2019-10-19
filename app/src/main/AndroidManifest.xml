@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="himankgupta.hostelcomplaintmanagementportal">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/url"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Front_Page">
+            </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="LOGIN" />
+        <activity
+            android:name=".Register"
+            android:label="REGISTER" />
+        <activity
+            android:name=".Student"
+            android:label="@string/title_activity_student"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Warden"
+            android:label="@string/title_activity_warden"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Caretaker"
+            android:label="@string/title_activity_caretaker"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditDetailsStudent"
+            android:label="EDIT DETAILS" />
+        <activity
+            android:name=".Edit_details_warden"
+            android:label="EDIT DETAILS" />
+        <activity
+            android:name=".Edit_details_caretaker"
+            android:label="EDIT DETAILS" />
+        <activity
+            android:name=".Change_pass_student"
+            android:label="CHANGE PASSWORD" />
+        <activity
+            android:name=".Change_pass_warden"
+            android:label="CHANGE PASSWORD" />
+        <activity
+            android:name=".Change_pass_caretaker"
+            android:label="CHANGE PASSWORD" />
+        <activity
+            android:name=".Lodge_complaint"
+            android:label="LODGE COMPLAINT" />
+        <activity
+            android:name=".Help"
+            android:label="HELP" />
+        <activity android:name=".Splash_Screen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

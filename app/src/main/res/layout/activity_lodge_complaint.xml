@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="himankgupta.hostelcomplaintmanagementportal.Lodge_complaint">
+
+    <EditText
+        android:id="@+id/editTextLodgeRollNumber"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".25"
+        android:editable="false"
+        android:ems="10"
+        android:text="Roll Number" />
+
+    <Spinner
+        android:id="@+id/spinnerRoomNumber"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_centerHorizontal="true"
+        android:layout_weight=".25" />
+
+    <Spinner
+        android:id="@+id/spinnerComplaintType"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="44dp"
+        android:layout_weight=".25" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".75"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextComplaint"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".25"
+            android:ems="10"
+            android:hint="Enter Complaint Here"
+            android:inputType="textPersonName"
+            android:textAlignment="viewStart" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".25"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
+    <Button
+        android:id="@+id/buttonLodgeComplaintSubmit"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/buttonLodgeComplaintCancel"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cancel" />
+
+    </LinearLayout>
+</LinearLayout>

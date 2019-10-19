@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/pers_details"
+
+            android:title="Edit Personal Details" />
+        <item
+            android:id="@+id/change_pass"
+
+            android:title="Change Password" />
+        <item
+            android:id="@+id/new_complaint"
+
+            android:title="Lodge New Complaint" />
+        <item
+            android:id="@+id/help"
+            android:title="Help" />
+        <item
+            android:id="@+id/logout"
+            android:title="Logout" />
+
+    </group>
+
+    
+
+</menu>

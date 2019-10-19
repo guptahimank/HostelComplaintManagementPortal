@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="4dp"
+    android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="3dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".30"
+            android:layout_height="wrap_content"
+            android:text="Complaint ID:"
+            android:textSize="8pt"
+            android:paddingLeft="3dp"
+            />
+        <TextView
+            android:id="@+id/textViewComplaintID2"
+            android:layout_width="0dp"
+            android:layout_weight=".25"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:textSize="8pt"
+            android:paddingRight="3dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".15"
+            android:layout_height="wrap_content"
+            android:text="Status:"
+            android:textSize="8pt"
+            android:paddingLeft="3dp"
+            />
+        <TextView
+            android:id="@+id/textViewComplaintStatus2"
+            android:layout_width="0dp"
+            android:layout_weight=".25"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:textSize="8pt"
+            android:paddingRight="3dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="3dp"
+        android:layout_margin="3dp">
+
+        <TextView
+            android:id="@+id/textViewComplaintDescription2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="bchd"
+            android:textSize="8pt"
+            android:paddingLeft="3dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="3dp"
+        android:layout_margin="3dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".20"
+            android:layout_height="wrap_content"
+            android:text="Type:"
+            android:textSize="8pt"
+            android:paddingLeft="3dp"
+            />
+        <TextView
+            android:id="@+id/textViewComplaintType2"
+            android:layout_width="0dp"
+            android:layout_weight=".25"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:textSize="8pt"
+            android:paddingRight="3dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".15"
+            android:layout_height="wrap_content"
+            android:text="Date:"
+            android:textSize="8pt"
+            android:paddingLeft="3dp"
+            />
+        <TextView
+            android:id="@+id/textViewComplaintDate2"
+            android:layout_width="0dp"
+            android:layout_weight=".25"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:textSize="8pt"
+            android:paddingLeft="3dp"/>
+        <Spinner
+            android:id="@+id/spinnerComplaintStatus2"
+            android:layout_width="0dp"
+            android:layout_weight=".25"
+            android:layout_height="wrap_content"
+            ></Spinner>
+
+    </LinearLayout>
+
+</LinearLayout>
